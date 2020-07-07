@@ -203,10 +203,6 @@ header .ml5 .letters {
   font-size: 30px;
 }
 
-#contact p {
-  text-align: left;
-}
-
 footer {
   padding: 30px;
 }
@@ -229,5 +225,12 @@ footer .copyright {
 @media screen and (min-width: 768px) {
   section h2 {
     margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  #contact p {
+    display: block;
+    text-align: right;
   }
 }
