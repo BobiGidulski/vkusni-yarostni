@@ -1,0 +1,233 @@
+body {
+  font-size: 18px;
+}
+
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/img/pexels-photo-1359315-1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+i {
+  color: #d89900;
+}
+
+a {
+  color: #b3b3b3;
+}
+
+a:hover {
+  color: #d89900;
+}
+
+.overlay {
+  position: fixed;
+  /* Sit on top of the page content */
+  width: 100%;
+  /* Full width (cover the whole page) */
+  height: 100%;
+  /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  /* Black background with opacity */
+}
+
+section {
+  position: relative;
+  color: #b3b3b3;
+  padding: 70px 0 20px 0;
+  min-height: 100vh;
+  text-align: center;
+}
+
+section h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 45px;
+  margin: 30px 0;
+}
+
+.photo-gallery {
+  color: #fff;
+  background-color: transparent;
+}
+
+button:focus {
+  outline: none;
+}
+
+.navbar .navbar-brand {
+  width: 240px;
+  height: 40px;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #fff;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.navbar .navbar-nav .nav-link:focus, .navbar .navbar-nav .nav-link:hover {
+  color: #ffdd8c;
+  outline: none;
+}
+
+.navbar .navbar-nav .nav-link.active {
+  color: #d89900;
+  font-weight: bold;
+}
+
+.scrolled {
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: background-color 600ms linear;
+}
+
+.logo {
+  margin-bottom: 6px;
+  background-image: url("../../assets/img/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header {
+  display: table;
+  width: 100%;
+  min-height: 100vh;
+}
+
+header .jumbotron {
+  display: table-cell;
+  background-color: transparent;
+  min-height: inherit;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header .jumbotron h1 {
+  position: relative;
+  line-height: 1;
+  font-family: 'Russo One', sans-serif;
+  color: #ff0000;
+  text-shadow: 2px 2px 5px #000;
+  font-size: 8vw;
+}
+
+header .jumbotron h2 {
+  position: relative;
+  color: #fff;
+  font-size: 3vw;
+}
+
+header .ml5 {
+  font-weight: 300;
+}
+
+header .ml5 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em;
+}
+
+header .ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color: #d89900;
+  transform-origin: 0.5 0;
+}
+
+header .ml5 .ampersand {
+  font-family: Baskerville, serif;
+  font-style: italic;
+  font-weight: 400;
+  width: 1em;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+  color: #d89900;
+}
+
+header .ml5 .letters {
+  display: inline-block;
+  opacity: 0;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 18px;
+  line-height: 1.42857143;
+  background-color: #fcfcfc;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+
+#why-us .item h3 {
+  padding: 25px 0;
+}
+
+#why-us .item p {
+  padding-bottom: 25px;
+}
+
+#why-us .item i {
+  font-size: 60px;
+}
+
+#contact i {
+  padding: 10px;
+  font-size: 30px;
+}
+
+#contact p {
+  text-align: left;
+}
+
+footer {
+  padding: 30px;
+}
+
+footer .copyright {
+  position: relative;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #b3b3b3;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 992px) {
+  section h2 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  section h2 {
+    margin-bottom: 100px;
+  }
+}
