@@ -72,6 +72,10 @@ button:focus {
   height: 40px;
 }
 
+.navbar .navbar-toggler {
+  margin-top: 6px;
+}
+
 .navbar .navbar-nav .nav-link {
   color: #fff;
   display: inline-block;
@@ -94,7 +98,6 @@ button:focus {
 }
 
 .logo {
-  margin-bottom: 6px;
   background-image: url("../../assets/img/logo.png");
   background-size: contain;
   background-repeat: no-repeat;
